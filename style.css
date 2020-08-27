@@ -1,0 +1,151 @@
+.header_bankIcon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.header_bankIcon img {
+    width: 70px;
+    height: 70px;
+}
+
+.header_backName {
+    color: #231f20;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
+
+.header_phoneNumbers {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 70%;
+    width: 170px;
+    color: #da511f;
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+.header_menu {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_border {
+    background-color: #da511f;
+    width: 2px;
+}
+
+.header_menu input {
+    height: 100%;
+    background-color: #231f20;
+    color: white;
+    flex-grow: 1;
+    border: none;
+}
+
+.header_menu input:hover {
+    background-color: #da511f;
+}
+
+.header_menu input:active {
+    background-color: #070505;
+}
+
+.body {
+    margin-left: 2%;
+}
+
+
+.body a, .body_path {
+    color: #231f20;
+    font-size: 12px;
+}
+
+.gray {
+    background-color: #231f20;
+}
+
+.calculator {
+    display: block;
+    width: 50%;
+    height: 50%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.calc_header {
+    color: #da511f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-left: 90px;
+}
+
+.calc_input {
+    display: inline-block;
+    width: 100px;
+}
+
+.calc_label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.calc_button {
+    padding: 9px 14px;
+    margin: 5px;
+    color: #3f6006;
+    border-radius: 10px;
+    border: 1px solid #d5fb1d;
+    background-color: #80c903;  /*цвет фона кнопки для браузеров без поддержки CSS3*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbf237), to(#80c903)); /* для Webkit браузеров */
+	background: -moz-linear-gradient(top,  #bbf237,  #80c903); /* для Firefox */
+    background-image: -o-linear-gradient(top,  #bbf237,  #80c903); /* для Opera 11 */
+}
+
+.calc_button:hover {
+    background-color: #c0e95f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d1fa70), to(#87b635));
+	background: -moz-linear-gradient(top,  #d1fa70,  #87b635);
+    background-image: -o-linear-gradient(top,  #d1fa70,  #87b635);
+    cursor: pointer;
+}
+
+.calc_button:active {
+    background-color: #80c903; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbf237), to(#80c903)); 
+	background: -moz-linear-gradient(top,  #bbf237,  #80c903); 
+    background-image: -o-linear-gradient(top,  #bbf237,  #80c903);
+}
+
+.result_label {
+    color: #51631e;
+    margin-left: 10px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 95%;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
